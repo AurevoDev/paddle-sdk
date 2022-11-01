@@ -1,0 +1,23 @@
+{
+  "name": "paddle-sdk",
+  "version": "1.0.0",
+  "description": "Paddle SDK made with TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AurevoDev/paddle-sdk.git"
+  },
+  "keywords": [],
+  "author": "Aelpxy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AurevoDev/paddle-sdk/issues"
+  },
+  "homepage": "https://github.com/AurevoDev/paddle-sdk#readme",
+  "dependencies": {
+    "axios": "^1.1.3"
+  }
+}
