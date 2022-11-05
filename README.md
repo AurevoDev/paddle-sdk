@@ -1,5 +1,5 @@
 # paypal-sdk
 
-PayPal SDK made with TypeScript.
+PayPal SDK for platform operations made with TypeScript.
 
 
