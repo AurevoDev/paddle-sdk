@@ -1,3 +1,5 @@
-# paddle-sdk
+# paypal-sdk
 
-Paddle SDK made with TypeScript.
+PayPal SDK made with TypeScript.
+
+---
