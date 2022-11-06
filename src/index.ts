@@ -26,4 +26,4 @@ function check_values() {
 
 check_values();
 
-export default {};
+export default { BASE_URL };
