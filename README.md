@@ -1,6 +1,3 @@
 # paypal-sdk
 
-PayPal SDK for platform operations made with TypeScript.
-
-Todo
-
+PayPal SDK for platform operations made with TypeScript. (WIP)
