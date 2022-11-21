@@ -1,20 +1,10 @@
-declare interface createPlanInterface {
+declare interface IcreatePlanInterface {
     billing_cycles: string[];
     name: string;
     payment_preferences: object;
     product_id: string;
     description: string;
     quantity_supported: boolean;
-    status: createPlanStatusEnum;
+    status: 'CREATED' | 'ACTIVE' | 'INACTIVE';
     taxes: object,
-}
-
-declare enum createPlanStatusEnum {
-    CREATED,
-    ACTIVE,
-    INACTIVE
-}
-
-declare interface updateInterface {
-
 }
