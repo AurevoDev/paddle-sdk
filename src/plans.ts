@@ -1,7 +1,7 @@
 import axios from "axios";
 import BASE_URL from "./index";
 
-async function listPlans() {
+async function list() {
   try {
     const config = {
       method: "GET",
@@ -21,7 +21,7 @@ async function listPlans() {
   }
 }
 
-async function createPlan(data: createPlanInterface) {
+async function create(data: createPlanInterface) {
   try {
     const config = {
       method: "POST",
@@ -42,7 +42,7 @@ async function createPlan(data: createPlanInterface) {
   }
 }
 
-async function updatePlan(data: updateInterface, id: string) {
+async function update(data: updateInterface, id: string) {
   try {
     const config = {
       method: "PATCH",
@@ -63,4 +63,4 @@ async function updatePlan(data: updateInterface, id: string) {
   }
 }
 
-export default { listPlans, createPlan, updatePlan };
+export default { list, create, update };

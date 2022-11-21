@@ -7,14 +7,14 @@ declare interface createPlanInterface {
     quantity_supported: boolean;
     status: createPlanStatusEnum;
     taxes: object,
-  }
-  
-  declare enum createPlanStatusEnum {
-      CREATED,
-      ACTIVE,
-      INACTIVE
-  }
-  
-  declare interface updateInterface {
-      
-  }
+}
+
+declare enum createPlanStatusEnum {
+    CREATED,
+    ACTIVE,
+    INACTIVE
+}
+
+declare interface updateInterface {
+
+}
